@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.1/15068
 // Filename: Custom.ggsk
-// Generated Tue Nov 15 09:01:55 2016
+// Generated Tue Nov 15 09:06:01 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1581,7 +1581,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		this._thumbnail_menu__content.setAttribute('style',hs);
 		this._thumbnail_menu.ggId="Thumbnail Menu";
-		this._thumbnail_menu.ggTop=-91;
+		this._thumbnail_menu.ggTop=-87;
 		this._thumbnail_menu.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		this._thumbnail_menu.ggVisible=true;
 		this._thumbnail_menu.className='ggskin ggskin_scrollarea ';
@@ -1590,11 +1590,11 @@ function pano2vrSkin(player,base) {
 		hs+='-webkit-overflow-scrolling : touch;';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
 		hs+='height : 82px;';
-		hs+='left : 12%;';
+		hs+='left : 9%;';
 		hs+='overflow-x : hidden;';
 		hs+='overflow-y : hidden;';
 		hs+='position : absolute;';
-		hs+='top : -91px;';
+		hs+='top : -87px;';
 		hs+='visibility : inherit;';
 		hs+='width : 82.2%;';
 		hs+='border-radius: 5px;';
