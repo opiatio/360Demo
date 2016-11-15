@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.1/15068
 // Filename: Custom.ggsk
-// Generated Tue Nov 15 09:06:01 2016
+// Generated Tue Nov 15 10:35:44 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1576,7 +1576,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='bottom : 0px;';
 		hs+='left : 50%;';
-		hs+='margin-left : -51.5px;';
+		hs+='margin-left : -39px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		this._thumbnail_menu__content.setAttribute('style',hs);
@@ -1637,7 +1637,7 @@ function pano2vrSkin(player,base) {
 		}
 		this._thumbnail_cloner=document.createElement('div');
 		this._thumbnail_cloner.ggNumRepeat = 1;
-		this._thumbnail_cloner.ggWidth = 98;
+		this._thumbnail_cloner.ggWidth = 77;
 		this._thumbnail_cloner.ggHeight = 60;
 		this._thumbnail_cloner.ggUpdating = false;
 		this._thumbnail_cloner.ggFilter = [];
@@ -1717,7 +1717,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 3px;';
 		hs+='visibility : inherit;';
-		hs+='width : 97px;';
+		hs+='width : 76px;';
 		this._thumbnail_cloner.setAttribute('style',hs);
 		this._thumbnail_cloner.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_cloner.ggIsActive=function() {
@@ -3112,7 +3112,7 @@ function pano2vrSkin(player,base) {
 		this.elementMouseDown=[];
 		this.elementMouseOver=[];
 		this.__div=document.createElement('div');
-		this.__div.setAttribute('style','position: absolute; left: 0px; top: 0px; width: 98px; height: 60px; visibility: inherit;');
+		this.__div.setAttribute('style','position: absolute; left: 0px; top: 0px; width: 77px; height: 60px; visibility: inherit;');
 		this.__div.ggIsActive = function() {
 			return me.player.getCurrentNode()==me.ggNodeId;
 		}
@@ -3140,7 +3140,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 2px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100px;';
+		hs+='width : 74px;';
 		this._thumbnail_nodeimage.setAttribute('style',hs);
 		this._thumbnail_nodeimage.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_nodeimage.ggIsActive=function() {
@@ -3172,7 +3172,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : -1px;';
 		hs+='visibility : hidden;';
-		hs+='width : 26px;';
+		hs+='width : 6px;';
 		this._checkmark_tick.setAttribute('style',hs);
 		this._checkmark_tick.style[domTransform + 'Origin']='50% 50%';
 		me._checkmark_tick.ggIsActive=function() {
@@ -3229,7 +3229,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : -1px;';
 		hs+='visibility : inherit;';
-		hs+='width : 91px;';
+		hs+='width : 71px;';
 		this._thumbnail_active.setAttribute('style',hs);
 		this._thumbnail_active.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_active.ggIsActive=function() {
